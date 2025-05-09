@@ -18,6 +18,8 @@
     "@babel/preset-env": "^7.27.2",
     "@babel/preset-react": "^7.27.1",
     "@eslint/js": "^9.25.0",
+    "@nl-design-system-candidate/link-react": "^1.1.1",
+    "@nl-design-system-candidate/skip-link-react": "^1.1.1",
     "@rijkshuisstijl-community/components-react": "^1.1.0",
     "@rijkshuisstijl-community/design-tokens": "^1.2.0",
     "@testing-library/dom": "^10.4.0",
@@ -39,5 +41,13 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
     "vite": "^6.3.5"
+  },
+  "overrides": {
+    "@nl-design-system-candidate/link-react": {
+      "react": "$react"
+    },
+    "@nl-design-system-candidate/skip-link-react": {
+      "react": "$react"
+    }
   }
 }
